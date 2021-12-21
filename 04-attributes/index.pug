@@ -1,0 +1,8 @@
+doctype html 
+html
+    head
+    body
+        input(type="password" name="inpPwd" data-js=`${5>2? "Ok": "not ok"}`)
+
+        - const myAttributes = {"src":"myPhoto.png", "alt":"This is my photo"}
+        img&attributes(myAttributes)
